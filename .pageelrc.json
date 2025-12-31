@@ -1,0 +1,54 @@
+{
+  "version": 2,
+  "collections": [
+    {
+      "id": "blog",
+      "name": "Blog Posts",
+      "postsPath": "src/content/blog",
+      "imagesPath": "public/images",
+      "template": {
+        "fields": [
+          { "name": "title", "type": "string", "required": true },
+          { "name": "description", "type": "string" },
+          { "name": "pubDate", "type": "date", "required": true },
+          { "name": "author", "type": "string", "defaultValue": "Admin" },
+          { "name": "image", "type": "string" },
+          { "name": "tags", "type": "array" },
+          { "name": "draft", "type": "boolean", "defaultValue": false }
+        ]
+      },
+      "tableColumns": ["title", "pubDate", "author"]
+    },
+    {
+      "id": "docs",
+      "name": "Documentation",
+      "postsPath": "src/content/docs",
+      "imagesPath": "public/images",
+      "template": {
+        "fields": [
+          { "name": "title", "type": "string", "required": true },
+          { "name": "order", "type": "number", "defaultValue": 1 },
+          { "name": "category", "type": "string" }
+        ]
+      },
+      "tableColumns": ["title", "category", "order"]
+    }
+  ],
+  "activeCollectionId": "blog",
+  "settings": {
+    "projectType": "astro",
+    "domainUrl": "https://pageel-cms-demo.vercel.app",
+    "postFileTypes": ".md,.mdx",
+    "imageFileTypes": "image/*",
+    "publishDateSource": "system",
+    "imageCompressionEnabled": true,
+    "maxImageSize": 500,
+    "imageResizeMaxWidth": 1024
+  },
+  "commitMessages": {
+    "newPost": "feat(content): update {filename}",
+    "updatePost": "fix(content): sync {filename}",
+    "newImage": "feat(assets): upload {filename}",
+    "updateImage": "refactor(assets): optimize {filename}"
+  }
+}
