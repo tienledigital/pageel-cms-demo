@@ -6,6 +6,12 @@
       "name": "Blog",
       "postsPath": "src/content/blog",
       "imagesPath": "public/images"
+    },
+    {
+      "id": "docs",
+      "name": "Docs",
+      "postsPath": "src/content/docs",
+      "imagesPath": "public/images"
     }
   ],
   "activeCollectionId": "blog",
