@@ -58,8 +58,7 @@
   ],
   "activeCollectionId": "blog",
   "settings": {
-    "projectType": "github",
-    "domainUrl": "www",
+    "projectType": "astro",
     "postFileTypes": ".md,.mdx",
     "imageFileTypes": "image/*",
     "publishDateSource": "file",
