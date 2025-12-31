@@ -80,7 +80,7 @@
       }
     }
   ],
-  "activeCollectionId": "docs",
+  "activeCollectionId": "blog",
   "settings": {
     "projectType": "github",
     "postFileTypes": ".md,.mdx",
