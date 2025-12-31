@@ -3,7 +3,7 @@ title: Welcome to Pageel CMS
 description: This is a demo post for testing the multi-collection support in Pageel CMS.
 pubDate: 2025-12-31
 author: Lê Hồng Tiến
-image: /images/demo.png
+image: /images/ui-dashboard.png
 tags: [demo, cms, astro]
 draft: false
 ---
