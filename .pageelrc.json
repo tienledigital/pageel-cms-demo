@@ -46,7 +46,8 @@
         "draft"
       ],
       "columnWidths": {
-        "__name__": 35
+        "__name__": 35,
+        "description": 25
       }
     },
     {
