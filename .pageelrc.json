@@ -1,8 +1,12 @@
 {
-  "version": 2,
-  "collections": [],
+  "version": 1,
+  "projectType": "github",
+  "paths": {
+    "posts": "src/content/blog",
+    "images": "public/images"
+  },
+  "domainUrl": "",
   "settings": {
-    "projectType": "github",
     "postFileTypes": ".md,.mdx",
     "imageFileTypes": "image/*",
     "publishDateSource": "file",
@@ -10,7 +14,7 @@
     "maxImageSize": 500,
     "imageResizeMaxWidth": 1024
   },
-  "commitMessages": {
+  "commits": {
     "newPost": "feat(content): add post \"{filename}\"",
     "updatePost": "fix(content): update post \"{filename}\"",
     "newImage": "feat(assets): add image \"{filename}\"",
