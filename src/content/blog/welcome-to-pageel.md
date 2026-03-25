@@ -1,13 +1,15 @@
 ---
 title: Welcome to Pageel CMS
 description: This is a demo post for testing the multi-collection support in Pageel CMS.
-pubDate: 2025-12-31
-author: Lê Hồng Tiến
+pubDate: 2025-12-31T00:00:00.000Z
+author: Dev
 image: /images/ui-dashboard.png
-tags: [demo, cms, astro]
+tags:
+  - demo
+  - cms
+  - astro
 draft: false
 ---
-
 # Welcome to Pageel CMS
 
 Pageel is a powerful, client-side, Git-based CMS designed specifically for the Astro ecosystem.
