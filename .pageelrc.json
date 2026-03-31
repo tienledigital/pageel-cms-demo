@@ -1,27 +1,5 @@
 {
   "version": 2,
-  "plugins": {
-    "editor": "@pageel/plugin-mdx"
-  },
-  "settings": {
-    "projectType": "astro",
-    "postFileTypes": ".md,.mdx",
-    "imageFileTypes": "image/*",
-    "publishDateSource": "file",
-    "imageCompressionEnabled": true,
-    "maxImageSize": 500,
-    "imageResizeMaxWidth": 1024,
-    "newPostCommit": "feat(content): add post \"{filename}\"",
-    "updatePostCommit": "fix(content): update post \"{filename}\"",
-    "newImageCommit": "feat(assets): add image \"{filename}\"",
-    "updateImageCommit": "refactor(assets): update image for \"{filename}\""
-  },
-  "commitMessages": {
-    "newPost": "feat(content): add post \"{filename}\"",
-    "updatePost": "fix(content): update post \"{filename}\"",
-    "newImage": "feat(assets): add image \"{filename}\"",
-    "updateImage": "refactor(assets): update image for \"{filename}\""
-  },
   "collections": [
     {
       "id": "blog",
@@ -102,5 +80,20 @@
       }
     }
   ],
-  "activeCollectionId": "blog"
+  "activeCollectionId": "blog",
+  "settings": {
+    "projectType": "github",
+    "postFileTypes": ".md,.mdx",
+    "imageFileTypes": "image/*",
+    "publishDateSource": "file",
+    "imageCompressionEnabled": true,
+    "maxImageSize": 500,
+    "imageResizeMaxWidth": 1024
+  },
+  "commitMessages": {
+    "newPost": "feat(content): add post \"{filename}\"",
+    "updatePost": "fix(content): update post \"{filename}\"",
+    "newImage": "feat(assets): add image \"{filename}\"",
+    "updateImage": "refactor(assets): update image for \"{filename}\""
+  }
 }
