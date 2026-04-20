@@ -95,8 +95,5 @@
     "updatePost": "fix(content): update post \"{filename}\"",
     "newImage": "feat(assets): add image \"{filename}\"",
     "updateImage": "refactor(assets): update image for \"{filename}\""
-  },
-  "plugins": {
-    "editor": "@pageel/plugin-mdx"
   }
 }
