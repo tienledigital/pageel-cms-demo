@@ -3,7 +3,7 @@ title: Building with Astro and Git CMS
 description: A practical guide to setting up your first project with Pageel CMS.
 pubDate: 2025-12-31T00:00:00.000Z
 author: Pageel Team
-image: /images/tech.png
+image: /images/ui-dashboard.png
 tags:
   - astro
   - tutorial
@@ -13,12 +13,6 @@ draft: false
 # Building with Astro and Git CMS
 
 This post showcases the dashboard UI of Pageel CMS and how easy it is to manage your Astro site.
-
-
-
-
-
-
 
 ## Getting Started now !
 
