@@ -14,6 +14,12 @@ draft: false
 
 This post showcases the dashboard UI of Pageel CMS and how easy it is to manage your Astro site.
 
+
+
+![](/images/ui-dashboard.png)
+
+
+
 ## Getting Started now !
 
 Simply connect your repo, define your collections in `.pageelrc.json`, and start writing!
