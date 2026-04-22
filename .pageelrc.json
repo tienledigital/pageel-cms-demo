@@ -96,5 +96,7 @@
     "newImage": "feat(assets): add image \"{filename}\"",
     "updateImage": "refactor(assets): update image for \"{filename}\""
   },
-  "plugins": {}
+  "plugins": {
+    "editor": "@pageel/plugin-mdx"
+  }
 }
